@@ -1,0 +1,484 @@
+
+
+body{
+    background-color: #eee !important;
+ }
+ 
+ h1, h2, h3, h4, h5, h6{
+     color: #1e1e1e;
+ }
+ 
+
+ a{
+    text-decoration: none !important;
+   color: inherit;
+  
+}
+
+ul{
+    list-style: none;
+    padding-left: 0 !important;
+}
+
+
+
+/* ------------STAR HOME--------------- */
+
+header{
+ background-image:  linear-gradient(rgba(0, 0, 0, 0.5) , rgba(0, 0, 0, 0.6)),url(../img/hero-bg.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .header-contant h1{
+     font-size: 4.5rem;
+  color: white;
+text-align: center;
+
+    }
+.header-contant p{
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+   
+    
+}
+/* ----------------------END HOM------------------------ */
+
+/* -------------------STAR ABOUT------------- */
+.about-titles h5{
+    color: #1e1e1e;
+   font-size: 2rem;
+   position: relative;
+}
+.about-titles h5::after{
+    content: "";
+    position: absolute;
+    background-color:#0078ff;
+    width:  18%;
+    height: 3px;
+    bottom: -12px;
+    left: -2px;
+
+}
+
+.skill .title{
+    font-size: 1.1rem;
+    color: #1e1e1e;
+    font-weight: 600;
+}
+
+
+
+/* -------------------------END ABOUT------------------ */
+
+
+/* -------------------STAR SERVICES------------------------- */
+
+
+.box{
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.icon-circle{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 0 10px #0078ff;
+    border-radius: 50%;
+}
+.icon-circle{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.inner{
+    text-align: center;
+    position: relative;
+    font-size: 3rem;
+    font-weight: bold;
+  
+
+}
+.inner::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    bottom: -47px;
+    left: 48%;
+    
+}
+.box:hover .icon-circle{
+    color: #fff;
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #cde1f8;
+    transition: 0.5s;
+}
+
+
+
+/* -------------------END SERVICES------------------------- */
+
+
+
+/* --------------------------STAR ITEM------------- */
+.item{
+background-image:  url(../img/counters-bg.jpg);
+background-position: center center;
+background-size: cover;
+margin: 2rem 0;
+background-repeat: no-repeat;
+ background-attachment: fixed;
+ height: 60vh;
+
+
+}
+
+ .item .layer{
+background-color: rgba(0, 119, 255, 0.599);
+height: 100%;
+
+}
+
+.items{
+    text-align: center;
+    color: #fff;
+    
+}
+.item-con span{
+    font-size: 1.7rem;
+  
+}
+
+
+
+
+
+
+
+/* ------------------------EDN ITEM----------------- */
+
+
+/* -----------------------STAT BLOG--------------------- */
+.card-body{
+    position: relative;
+}
+
+.card-body i{
+    color: #0078ff;
+    
+}
+.card-body h3{
+    font-size: 1.2rem;
+}
+.card{
+    box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+}
+.card-body span{
+    color: #0078ff;
+}
+.beg:hover img{
+    transform: scale(1.2);
+   
+}
+ .beg{
+    overflow: hidden;
+    
+}
+.card img{
+    transition: all 1s;
+}
+
+
+.blog-con:hover{
+    color: #0078ff;
+    transition: all 0.5s;
+}
+.blog-con{
+    transition: all 0.5s;
+}
+.card-body h3:hover{
+    color: #0078ff;
+}
+
+.card-body h3{
+    transition: all 0.5s;
+}
+
+.card-body h3{
+    padding-top: 7px;
+}
+
+/* ---------------------END BLOG-------------------- */
+
+
+
+/* -----------------------STAR WORK----------------- */
+
+.ico-circle{
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 0 0 10px #cde1f8;
+    border-radius: 50%;
+  
+}
+.ico-circle{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #cde1f8;
+   
+    
+}
+
+.img-box{
+    position: absolute;
+    text-align: center;
+    top: -16px;
+    left: 15px;
+    right: 15px;
+    line-height: 25px;
+   
+}
+.img-b{
+    display: inline-block;
+    padding: 8px 14px ;
+    background-color: #0078ff;
+    border-radius: 4px;
+}
+
+.img-b h6{
+    color: #fff;
+    font-size: 0.7rem;
+    margin-bottom: 0;
+}
+
+.img-con  p span{
+    font-size: 1.1rem;
+    color: #1e1e1e;
+    font-weight: 600;
+}
+
+
+/* --------------------------END WORK-------------------- */
+
+
+/* ------------------------STAR CONTACT------------------- */
+
+#CONTACT{
+    background-image:  linear-gradient(rgba(0, 119, 255, 0.599), rgba(0, 119, 255, 0.599)),url(../img/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-top: 5rem;
+    margin-top: 7rem;
+}
+.list span{
+    display: inline-block;
+    vertical-align: middle;
+    color: #0078ff;
+   
+ 
+}
+.list p{
+    display: inline-block;
+    margin-left: 7px;
+  
+}
+
+.list-icon ul li{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 0 3px #0078ff;
+    border-radius: 50%;
+    font-size: 1.2rem;
+  
+}
+.list-icon ul li{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.list-icon ul li{
+    margin: 0 10px;
+}
+.list-icon ul li:hover{
+background-color: #0078ff;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+  
+}
+.list-icon ul li{
+    transition: all 0.5s;
+}
+
+.but button{
+    border-radius: 5rem;
+    padding: 15px;
+    background-color:#0078ff ;
+    color: white;
+    border: 0;
+width:12rem;
+margin-bottom: 20px;
+}
+.but button:hover{
+    background-color: #0062d3;
+    color: #fff;
+  
+}
+
+/* --------------------END CONTACT-------------------- */
+
+
+
+
+/* -------------------------- STAR CLIND--------------*/
+.client{
+  background-image: linear-gradient(rgba(0, 119, 255, 0.599), rgba(0, 119, 255, 0.599)) ,url(../img/overlay-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 75vh;
+  padding-top: 7rem;
+  margin-top: 3rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.client-con span{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+  
+    font-size: 1.4rem;
+}
+.client-con p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+.client-con{
+    margin-top: 1rem;
+}
+
+/* -------------------------- END CLIND--------------*/
+
+
+
+/* -----------------------STAR NAV---------------- */
+
+.navbar-nav a {
+    color: #fff!important;
+}
+
+
+.navbar-nav .nav-link {
+    position: relative;
+ }
+ 
+
+.navbar-nav .nav-link::before {
+   content: '';
+   width: 0%;
+   height: 2px;
+   left:50%;
+bottom: 0;
+background-color:white;
+position: absolute;
+transform: translateX(-50%);
+visibility: hidden;
+transition:  all 0.3s;
+   
+}
+
+.navbar-nav .nav-link:hover::before, .navbar-nav .nav-link.active::before {
+    width: 75%;
+    visibility: visible;
+} 
+
+.fixed-top{
+background: rgba(0, 0, 0, 0.9);
+padding: 1.2rem;
+}
+.nav-link.active a{
+    color: #fff;
+}
+.navbar-brand{
+    color: #fff !important;
+   font-size: 28px;
+   font-weight: 600;
+}
+
+
+
+.dropdown-menu.show  a{
+    padding: 10px 20px;
+    font-size: 15px;
+    text-transform: none;
+    color: #4e4e4e!important;
+    background-color: inherit;
+    
+}
+.dropdown-menu.show  a:hover{
+    color: #0078ff!important;
+    
+}
+
+/* ----------------------END NAV--------------- */
+
+
+
+/* ----------------------STAR FOOTER---------- */
+.footer{
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+    background: #0054b3;
+}
+
+/* ------------------END FOOTER-------------- */
+
+
+
+/* ---------------------STAR BACK-TOP----------------- */
+
+
+.back-top{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0078ff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 0.5rem;
+ transition: 0.3s;
+ 
+}
+.back-top span{
+    color: #fff;
+
+}
+.back-top:hover{
+    background-color: #298eff;
+}
+/* ------------------END BACK-TOP------------------ */
+
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    }
+    
